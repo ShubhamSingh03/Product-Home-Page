@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+            /* NAVBAR */
+
+nav{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[alt="logo"]{
+    display: block;
+    height: 40px;
+    margin-right: 40px;
+}
+
+nav div.nav-items{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 70px;
+    font-size: 25px;   
+}
+
+.nav-item{
+    font-weight: 400;
+}
+
+.nav-item:hover{
+    color: #fe6139;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav .nav-item.active-item {
+    color: #fe6139;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+[alt="actions"]{
+    width: 250px;
+    cursor: pointer;
+}
+
+
+
+.intro-section{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+             /* INTRO LEFT SECTION */
+
+.intro-section .left-section{
+    max-width: 700px;
+    margin-top: 40px;
+}
+
+.intro-section .left-section h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.intro-section .left-section img{
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.intro-section .left-section h1{
+    font-size: 4.2rem;
+    font-family: 'Fredoka One', cursive;
+}
+
+.intro-section .left-section .sub-headlines{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.intro-section .left-section .sub-headline{
+    font-size: 20px;
+}
+
+.intro-section .left-section .sub-headline{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.intro-section .left-section .sub-headline img{
+    width: 20px;
+    background-color: #fe6139;
+    border-radius: 60px;
+    padding: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.intro-section .left-section .text{
+    font-size: 14px;
+    color: #7e7e7e;
+    margin-top: 30px;
+}
+
+.intro-section .left-section .action-btns{
+    margin-top: 40px;
+}
+
+.intro-section .left-section .action-btn{
+    background-color: #fe6139;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.intro-section .left-section .action-btn:hover{
+    background: transparent;
+    color: #000000;
+    border: #000000 1px solid;
+    font-weight: 600;
+}
+
+            /* INTRO RIGHT SECTION */
+
+.intro-section .right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-section .right-section .headphone-div{
+    position: relative;
+    width: 570px;
+}
+
+.intro-section .right-section .headphone-div .discount-content{
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    color: #FFFFFF;
+    font-family: "Fredoka One";
+}
+
+[alt="discount"]{
+    position: absolute;
+    width: 120px;
+    top: 200px;
+    left: 40px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+[alt="headphone"]{
+    width: 420px;
+    position: relative;
+    z-index: -1;
+    top: -20px;
+    left: 80px;
+}
+
+.intro-section .right-section .dots {
+    display: flex;
+    gap: 30px;
+    margin-top: -20px;
+}
+
+.intro-section .right-section .dots .dot {
+    height: 26px;
+    width: 26px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.intro-section .right-section .dots .dot.yellow-dot {
+    background-color: #fbd104;
+}
+
+.intro-section .right-section .dots .dot.tomato-dot {
+    background-color: #fe5e35;
+}
+
+.intro-section .right-section .dots .dot.black-dot {
+    background-color: #000000;   
+}
+
+.intro-section .right-section .action-btn{
+    background-color: #fe6139;
+    border: none;
+    padding: 15px 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.intro-section .right-section .action-btn:hover{
+    background: transparent;
+    color: #000000;
+    border: #000000 1px solid;
+    font-weight: 600;
+}
+
+            /* MEDIA QUERIES*/
+
+@media screen and (max-width:1200px) {
+    .intro-section{
+        flex-wrap: wrap-reverse;
+    }
+    .discount-content{
+        left: 8%;
+    }
+    .action-btn{
+        margin-bottom: 20px;
+    }
+
+    .headphone-div{
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width:690px) {
+    .left-section{
+        margin-left: 10px;
+    }
+
+    nav{
+        margin-left: 10px;
+    }
+
+    [alt="logo"]{
+        margin: 20px;
+    }
+
+    .headphone-div{
+        margin-left: 30px;
+    }
+
+    .nav-items .nav-item{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .headphone-div{
+        width: 100vw;
+        margin-left: -90px;
+    }
+
+    .discount{
+        width: 100px;
+        top: 48%;
+        bottom: 10%;
+        left: 9%;
+    }
+
+    .discount-content{
+        font-size: 13px;
+    }
+
+    [alt="headphone"]{
+        margin-left: -35px;
+    }
+
+    .dots{
+        margin-left: -140px;
+    }
+
+    .right-section button.action-btn{
+        margin-left: -140px;
+    }
+
+    .intro-section .left-section{
+        margin-left: -20px;
+    }
+
+    .intro-section .left-section h1{
+        font-size: 57px;
+    }
+
+    .intro-section .left-section h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .headphone-div{
+        width: 100vw;
+        margin-left: -60px;
+    }
+
+    .discount{
+        width: 100px;
+        top: 48%;
+        bottom: 10%;
+        left: 9%;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    nav img:last-child{
+        display: block;
+        margin-left: -20px;
+    }
+
+    nav img:first-child{
+        width: 80px;
+        margin-left: 20px;
+    }
+
+    .intro-section{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .intro-section .left-section{
+        margin-left: 15px;
+    }
+
+    .action-btn{
+        margin-bottom: 20px;
+    }
+
+    .headphone-div{
+        margin-top: 30px;
+    }
+}
