@@ -15,17 +15,17 @@
 ***
 ## Description
 
-This project [Product Home Page]() was built using Semantic HTML and CSS. The main goal for building this webpage was to apply the concepts which I have learned in the bootcamp[FS Js Bootcamp, Ineuron] and make the webpage responsive for all major devices.The difficulty was faced while making webpage responsive with **@media queries**. Making the webpage responsive was way time-consuming but I learnt alot. The Project was completed under guidance of [Hitesh Choudhary](https://github.com/hiteshchoudhary), CTO Ineuron
+This project [Product Home Page](https://earphone-page.netlify.app/) was built using Semantic HTML and CSS. The main goal for building this webpage was to apply the concepts which I have learned in the bootcamp[FS Js Bootcamp, Ineuron] and make the webpage responsive for all major devices.The difficulty was faced while making webpage responsive with **@media queries**. Making the webpage responsive was way time-consuming but I learnt alot. The Project was completed under guidance of [Hitesh Choudhary](https://github.com/hiteshchoudhary), CTO Ineuron
 
 ***
 
 ### Links for Project
 
-* [LIVE Project Link]()
+* [LIVE Project Link](https://earphone-page.netlify.app/)
 
-* [Youtube Video Demo]()
+* [Youtube Video Demo](https://youtu.be/fWQc-BGqx8I)
 
-* [Source Code]()
+* [Source Code](https://github.com/ShubhamSingh03/Product-Home-Page)
 
 ***
 ### Built With 
@@ -97,17 +97,17 @@ This project [Product Home Page]() was built using Semantic HTML and CSS. The ma
 
 ### Checkout Portfolio & Other Projects
 
-#### [Personal Portfolio]()
+#### [Personal Portfolio](https://shubhambhoj.in/)
 
 
-#### [Findcoder Profile]()
+#### [Findcoder Profile](https://www.findcoder.io/u/shubham_singh)
 ***
 
 ### Connect with Me
 * [Mailto](mailto:shubhambhoj3@gmail.com)
-* [LinkedIn]()
-* [Github]()
-* [Findcoder]()
+* [LinkedIn](https://www.linkedin.com/in/shubham-singh-b122b7171/)
+* [Github](https://github.com/ShubhamSingh03)
+
 ***
 ***
 [go to top](#product-home-page)
